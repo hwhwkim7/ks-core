@@ -4,15 +4,6 @@ This repository provides a complete implementation of a novel cohesive subgraph 
 
 The proposed model emphasises both structural cohesiveness and interaction strength, offering robustness against noisy, oversized hyperedges using a decay-based approach.
 
-## Problem Overview
-
-Traditional cohesive substructure discovery in hypergraphs often suffers from the influence of large, noisy hyperedges. Existing models such as nbr- $k$ -core and $(k, g)$-core lack the flexibility to penalize weak co-occurrences.
-
-To address this, the $(k, s)$-core model introduces:
-- $DCS$ (Decay-based Closeness Score): Quantifies interaction strength between nodes by penalizing large hyperedges.
-- Strong Neighbors: Only neighbors with cumulative $DCS ≥ s$ are considered.
-- $(k, s)$-core: The maximal node set where each node has at least $k$ strong neighbors.
-
 ## Code Structure
 ```
 .
