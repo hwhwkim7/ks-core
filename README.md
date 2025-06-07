@@ -18,7 +18,9 @@ The proposed model emphasises both structural cohesiveness and interaction stren
 
 ### Requirements
 - Python 3.8+
-- pandas, psutil
+```
+pip install pandas psutil
+```
 
 ### Example Usage
 ```
