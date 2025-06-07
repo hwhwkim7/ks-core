@@ -8,11 +8,11 @@ The proposed model emphasises both structural cohesiveness and interaction stren
 ```
 .
 ├── code/
-├────── main.py        # Main
-├────── func.py        # Core utilities for hypergraph, $DCS$, and statistics
-├────── kscore.py      # Peeling algorithm to extract (k, s)-core
-├── datasets/          # Directory for input .hyp hypergraph files
-├── output.csv         # Output log (created after running)
+│   ├── main.py       # Entry point for the program
+│   ├── func.py       # Core utilities for hypergraph processing, DCS computation, and statistics
+│   └── kscore.py     # Peeling algorithm implementation for (k, s)-core extraction
+├── datasets/         # Directory containing input .hyp hypergraph files
+└── output.csv        # Output log file generated after execution
 ```
 
 ## How to Run
