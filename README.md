@@ -1,5 +1,8 @@
 # When User Engagement Meets Structural Cohesiveness: A Decay-Driven Approach to Hypergraph Cores
+
 *CIKM 2025 short paper*
+
+**Paper:** [Read on ACM Digital Library](https://dl.acm.org/doi/10.1145/3746252.3760845)
   
 This repository provides a complete implementation of a novel cohesive subgraph discovery model named $(k, s)$-core for hypergraphs.
 
